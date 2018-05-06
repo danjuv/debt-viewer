@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "types": [
+      "node",
+    ],
+    "moduleResolution": "node",
+    "target": "es2017",
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "sourceMap": true,
+    "alwaysStrict": true,
+    "strict": true,
+    "declaration": false
+  },
+  "include": [
+    "**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "lib/docs/**/"
+  ]
+}
